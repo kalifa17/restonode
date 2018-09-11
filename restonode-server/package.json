@@ -1,0 +1,18 @@
+{
+  "name": "phonebook-server",
+  "version": "1.0.0",
+  "description": "Phonebook server",
+  "main": "server.js",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "body-parser": "^1.10.2",
+    "cors": "^2.8.4",
+    "express": "^4.11.1",
+    "mongojs": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --inspect server.js"
+  }
+}

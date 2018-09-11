@@ -1,0 +1,1 @@
+export const CREATE_NEW_ORDER = 'CREATE_NEW_ORDER';
